@@ -1,5 +1,5 @@
 import React from "react";
-import "./title.scss";
+import "./style.scss";
 
 function Title() {
   return (

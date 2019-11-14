@@ -1,0 +1,22 @@
+$base-right-color: #CACF85;
+$base-text-color:#4D5382;
+// sub text color #CACF85 & #4D5382
+
+
+.container {
+  margin: {
+    top: 20px;
+  }
+
+  .card{
+    .card-header{
+      background: linear-gradient(60deg, #eee, $base-right-color);
+
+      .card-text{
+        &h4 {
+          color: red;
+        }
+      }
+    }
+  }
+}
